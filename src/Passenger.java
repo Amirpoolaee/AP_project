@@ -4,6 +4,7 @@ public class Passenger {
     public String lName;
     public  String email;
     public String password;
+    public String roomNum;
     public Passenger(String Fname,String Lname , String NC,String Email, String Password){
         nc=NC;
         fName=Fname;

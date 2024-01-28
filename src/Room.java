@@ -3,8 +3,8 @@ public class Room {
 public int price;
     public int beds;
 private int number;
-private Boolean isBooked;
-private Boolean isReservable=true;
+public Boolean isBooked;
+public Boolean isReservable=true;
 public Room(int Beds,int Price){
     number=counter;
     counter++;
@@ -14,6 +14,10 @@ public Room(int Beds,int Price){
 
     public int getNumber() {
         return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
     }
 
     public Boolean getBooked() {
